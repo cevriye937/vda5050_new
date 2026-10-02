@@ -1,5 +1,0 @@
-/home/melih/Desktop/vda5050_new/build/CMakeFiles/VDA5050_AGV.dir
-/home/melih/Desktop/vda5050_new/build/CMakeFiles/edit_cache.dir
-/home/melih/Desktop/vda5050_new/build/CMakeFiles/rebuild_cache.dir
-/home/melih/Desktop/vda5050_new/build/CMakeFiles/VDA5050_AGV_autogen_timestamp_deps.dir
-/home/melih/Desktop/vda5050_new/build/CMakeFiles/VDA5050_AGV_autogen.dir
