@@ -1,7 +1,0 @@
-RCC_OBJECTS = 
-QMAKE_PRL_TARGET = libQt6Mqtt.so
-QMAKE_PRL_TARGET_PATH_FOR_CMAKE = /home/cevriye/QtProjects/VDA5050_AGV/build/lib/libQt6Mqtt.so
-QMAKE_PRL_CONFIG = shared
-QMAKE_PRL_VERSION = 6.5.3
-QMAKE_PRL_LIBS_FOR_CMAKE = /home/cevriye/Qt/6.5.3/gcc_64/lib/libQt6Network.so.6.5.3;/home/cevriye/Qt/6.5.3/gcc_64/lib/libQt6Core.so.6.5.3
-

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cevriye/QtProjects/VDA5050_AGV
+CMAKE_SOURCE_DIR = /home/melih/Desktop/vda5050_new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cevriye/QtProjects/VDA5050_AGV/build
+CMAKE_BINARY_DIR = /home/melih/Desktop/vda5050_new/build
 
 # Utility rule file for VDA5050_AGV_autogen_timestamp_deps.
 
@@ -66,10 +66,9 @@ include CMakeFiles/VDA5050_AGV_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/VDA5050_AGV_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/VDA5050_AGV_autogen_timestamp_deps: /home/cevriye/Qt/6.5.3/gcc_64/lib/libQt6Network.so.6.5.3
-CMakeFiles/VDA5050_AGV_autogen_timestamp_deps: /home/cevriye/Qt/6.5.3/gcc_64/./libexec/moc
-CMakeFiles/VDA5050_AGV_autogen_timestamp_deps: /home/cevriye/Qt/6.5.3/gcc_64/./libexec/uic
-CMakeFiles/VDA5050_AGV_autogen_timestamp_deps: lib/libQt6Mqtt.so.6.5.3
+CMakeFiles/VDA5050_AGV_autogen_timestamp_deps: /home/melih/Qt/6.12.0/gcc_64/lib/libQt6Mqtt.so.6.12.0
+CMakeFiles/VDA5050_AGV_autogen_timestamp_deps: /home/melih/Qt/6.12.0/gcc_64/libexec/moc
+CMakeFiles/VDA5050_AGV_autogen_timestamp_deps: /home/melih/Qt/6.12.0/gcc_64/lib/libQt6Network.so.6.12.0
 
 VDA5050_AGV_autogen_timestamp_deps: CMakeFiles/VDA5050_AGV_autogen_timestamp_deps
 VDA5050_AGV_autogen_timestamp_deps: CMakeFiles/VDA5050_AGV_autogen_timestamp_deps.dir/build.make
@@ -84,6 +83,6 @@ CMakeFiles/VDA5050_AGV_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/VDA5050_AGV_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/VDA5050_AGV_autogen_timestamp_deps.dir/depend:
-	cd /home/cevriye/QtProjects/VDA5050_AGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cevriye/QtProjects/VDA5050_AGV /home/cevriye/QtProjects/VDA5050_AGV /home/cevriye/QtProjects/VDA5050_AGV/build /home/cevriye/QtProjects/VDA5050_AGV/build /home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles/VDA5050_AGV_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/melih/Desktop/vda5050_new/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/melih/Desktop/vda5050_new /home/melih/Desktop/vda5050_new /home/melih/Desktop/vda5050_new/build /home/melih/Desktop/vda5050_new/build /home/melih/Desktop/vda5050_new/build/CMakeFiles/VDA5050_AGV_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/VDA5050_AGV_autogen_timestamp_deps.dir/depend
 

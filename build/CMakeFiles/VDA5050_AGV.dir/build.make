@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cevriye/QtProjects/VDA5050_AGV
+CMAKE_SOURCE_DIR = /home/melih/Desktop/vda5050_new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cevriye/QtProjects/VDA5050_AGV/build
+CMAKE_BINARY_DIR = /home/melih/Desktop/vda5050_new/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/VDA5050_AGV.dir/depend.make
@@ -72,1087 +72,1088 @@ include CMakeFiles/VDA5050_AGV.dir/flags.make
 CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
 CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.o: VDA5050_AGV_autogen/mocs_compilation.cpp
 CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/build/VDA5050_AGV_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.o -c /home/melih/Desktop/vda5050_new/build/VDA5050_AGV_autogen/mocs_compilation.cpp
 
 CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/build/VDA5050_AGV_autogen/mocs_compilation.cpp > CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/build/VDA5050_AGV_autogen/mocs_compilation.cpp > CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/build/VDA5050_AGV_autogen/mocs_compilation.cpp -o CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/main.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/main.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/main.cpp
-CMakeFiles/VDA5050_AGV.dir/main.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VDA5050_AGV.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/main.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/main.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/main.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/main.cpp
-
-CMakeFiles/VDA5050_AGV.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/main.cpp > CMakeFiles/VDA5050_AGV.dir/main.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/main.cpp -o CMakeFiles/VDA5050_AGV.dir/main.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/agv.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/agv.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/agv.cpp
-CMakeFiles/VDA5050_AGV.dir/agv.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/VDA5050_AGV.dir/agv.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/agv.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/agv.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/agv.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/agv.cpp
-
-CMakeFiles/VDA5050_AGV.dir/agv.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/agv.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/agv.cpp > CMakeFiles/VDA5050_AGV.dir/agv.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/agv.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/agv.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/agv.cpp -o CMakeFiles/VDA5050_AGV.dir/agv.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/state.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/state.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/state.cpp
-CMakeFiles/VDA5050_AGV.dir/state.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/VDA5050_AGV.dir/state.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/state.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/state.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/state.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/state.cpp
-
-CMakeFiles/VDA5050_AGV.dir/state.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/state.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/state.cpp > CMakeFiles/VDA5050_AGV.dir/state.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/state.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/state.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/state.cpp -o CMakeFiles/VDA5050_AGV.dir/state.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/velocity.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/velocity.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/velocity.cpp
-CMakeFiles/VDA5050_AGV.dir/velocity.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/VDA5050_AGV.dir/velocity.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/velocity.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/velocity.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/velocity.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/velocity.cpp
-
-CMakeFiles/VDA5050_AGV.dir/velocity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/velocity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/velocity.cpp > CMakeFiles/VDA5050_AGV.dir/velocity.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/velocity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/velocity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/velocity.cpp -o CMakeFiles/VDA5050_AGV.dir/velocity.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotposition.cpp
-CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotposition.cpp
-
-CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotposition.cpp > CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotposition.cpp -o CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/safetystate.cpp
-CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/safetystate.cpp
-
-CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/safetystate.cpp > CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/safetystate.cpp -o CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/powersupply.cpp
-CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/powersupply.cpp
-
-CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/powersupply.cpp > CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/powersupply.cpp -o CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/error.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/error.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/error.cpp
-CMakeFiles/VDA5050_AGV.dir/error.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/VDA5050_AGV.dir/error.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/error.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/error.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/error.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/error.cpp
-
-CMakeFiles/VDA5050_AGV.dir/error.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/error.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/error.cpp > CMakeFiles/VDA5050_AGV.dir/error.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/error.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/error.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/error.cpp -o CMakeFiles/VDA5050_AGV.dir/error.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/errorreference.cpp
-CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/errorreference.cpp
-
-CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/errorreference.cpp > CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/errorreference.cpp -o CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/translation.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/translation.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/translation.cpp
-CMakeFiles/VDA5050_AGV.dir/translation.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/VDA5050_AGV.dir/translation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/translation.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/translation.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/translation.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/translation.cpp
-
-CMakeFiles/VDA5050_AGV.dir/translation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/translation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/translation.cpp > CMakeFiles/VDA5050_AGV.dir/translation.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/translation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/translation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/translation.cpp -o CMakeFiles/VDA5050_AGV.dir/translation.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/info.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/info.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/info.cpp
-CMakeFiles/VDA5050_AGV.dir/info.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/VDA5050_AGV.dir/info.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/info.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/info.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/info.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/info.cpp
-
-CMakeFiles/VDA5050_AGV.dir/info.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/info.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/info.cpp > CMakeFiles/VDA5050_AGV.dir/info.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/info.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/info.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/info.cpp -o CMakeFiles/VDA5050_AGV.dir/info.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/inforeference.cpp
-CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/inforeference.cpp
-
-CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/inforeference.cpp > CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/inforeference.cpp -o CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/map.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/map.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/map.cpp
-CMakeFiles/VDA5050_AGV.dir/map.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/VDA5050_AGV.dir/map.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/map.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/map.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/map.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/map.cpp
-
-CMakeFiles/VDA5050_AGV.dir/map.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/map.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/map.cpp > CMakeFiles/VDA5050_AGV.dir/map.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/map.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/map.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/map.cpp -o CMakeFiles/VDA5050_AGV.dir/map.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/zoneset.cpp
-CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/zoneset.cpp
-
-CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/zoneset.cpp > CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/zoneset.cpp -o CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/nodestate.cpp
-CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/nodestate.cpp
-
-CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/nodestate.cpp > CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/nodestate.cpp -o CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/nodeposition.cpp
-CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/nodeposition.cpp
-
-CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/nodeposition.cpp > CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/nodeposition.cpp -o CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/edgestate.cpp
-CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/edgestate.cpp
-
-CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/edgestate.cpp > CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/edgestate.cpp -o CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/plannedpath.cpp
-CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/plannedpath.cpp
-
-CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/plannedpath.cpp > CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/plannedpath.cpp -o CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/trajectory.cpp
-CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/trajectory.cpp
-
-CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/trajectory.cpp > CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/trajectory.cpp -o CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/intermediatepath.cpp
-CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/intermediatepath.cpp
-
-CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/intermediatepath.cpp > CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/intermediatepath.cpp -o CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/waypoint.cpp
-CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/waypoint.cpp
-
-CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/waypoint.cpp > CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/waypoint.cpp -o CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/actionstate.cpp
-CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/actionstate.cpp
-
-CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/actionstate.cpp > CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/actionstate.cpp -o CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/load.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/load.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/load.cpp
-CMakeFiles/VDA5050_AGV.dir/load.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/VDA5050_AGV.dir/load.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/load.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/load.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/load.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/load.cpp
-
-CMakeFiles/VDA5050_AGV.dir/load.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/load.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/load.cpp > CMakeFiles/VDA5050_AGV.dir/load.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/load.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/load.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/load.cpp -o CMakeFiles/VDA5050_AGV.dir/load.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/boundingboxreference.cpp
-CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/boundingboxreference.cpp
-
-CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/boundingboxreference.cpp > CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/boundingboxreference.cpp -o CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/loaddimensions.cpp
-CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/loaddimensions.cpp
-
-CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/loaddimensions.cpp > CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/loaddimensions.cpp -o CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/zonerequest.cpp
-CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/zonerequest.cpp
-
-CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/zonerequest.cpp > CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/zonerequest.cpp -o CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/edgerequest.cpp
-CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/edgerequest.cpp
-
-CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/edgerequest.cpp > CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/edgerequest.cpp -o CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/typespecification.cpp
-CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/typespecification.cpp
-
-CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/typespecification.cpp > CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/typespecification.cpp -o CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/physicalparameters.cpp
-CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/physicalparameters.cpp
-
-CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/physicalparameters.cpp > CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/physicalparameters.cpp -o CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/maximumstringlengths.cpp
-CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/maximumstringlengths.cpp
-
-CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/maximumstringlengths.cpp > CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/maximumstringlengths.cpp -o CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/maximumarraylengths.cpp
-CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/maximumarraylengths.cpp
-
-CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/maximumarraylengths.cpp > CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/maximumarraylengths.cpp -o CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/timing.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/timing.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/timing.cpp
-CMakeFiles/VDA5050_AGV.dir/timing.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/VDA5050_AGV.dir/timing.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/timing.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/timing.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/timing.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/timing.cpp
-
-CMakeFiles/VDA5050_AGV.dir/timing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/timing.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/timing.cpp > CMakeFiles/VDA5050_AGV.dir/timing.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/timing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/timing.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/timing.cpp -o CMakeFiles/VDA5050_AGV.dir/timing.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/protocollimits.cpp
-CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/protocollimits.cpp
-
-CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/protocollimits.cpp > CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/protocollimits.cpp -o CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/optionalparameter.cpp
-CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/optionalparameter.cpp
-
-CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/optionalparameter.cpp > CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/optionalparameter.cpp -o CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/actionparameter.cpp
-CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/actionparameter.cpp
-
-CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/actionparameter.cpp > CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/actionparameter.cpp -o CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotaction.cpp
-CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotaction.cpp
-
-CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotaction.cpp > CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotaction.cpp -o CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/protocolfeatures.cpp
-CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/protocolfeatures.cpp
-
-CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/protocolfeatures.cpp > CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/protocolfeatures.cpp -o CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/position.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/position.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/position.cpp
-CMakeFiles/VDA5050_AGV.dir/position.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/VDA5050_AGV.dir/position.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/position.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/position.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/position.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/position.cpp
-
-CMakeFiles/VDA5050_AGV.dir/position.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/position.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/position.cpp > CMakeFiles/VDA5050_AGV.dir/position.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/position.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/position.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/position.cpp -o CMakeFiles/VDA5050_AGV.dir/position.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/wheeldefinition.cpp
-CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/wheeldefinition.cpp
-
-CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/wheeldefinition.cpp > CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/wheeldefinition.cpp -o CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/vertex.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/vertex.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/vertex.cpp
-CMakeFiles/VDA5050_AGV.dir/vertex.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/VDA5050_AGV.dir/vertex.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/vertex.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/vertex.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/vertex.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/vertex.cpp
-
-CMakeFiles/VDA5050_AGV.dir/vertex.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/vertex.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/vertex.cpp > CMakeFiles/VDA5050_AGV.dir/vertex.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/vertex.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/vertex.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/vertex.cpp -o CMakeFiles/VDA5050_AGV.dir/vertex.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/envelope2d.cpp
-CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/envelope2d.cpp
-
-CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/envelope2d.cpp > CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/envelope2d.cpp -o CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/envelope3d.cpp
-CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/envelope3d.cpp
-
-CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/envelope3d.cpp > CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/envelope3d.cpp -o CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotgeometry.cpp
-CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotgeometry.cpp
-
-CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotgeometry.cpp > CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotgeometry.cpp -o CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/loadset.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/loadset.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/loadset.cpp
-CMakeFiles/VDA5050_AGV.dir/loadset.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/VDA5050_AGV.dir/loadset.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/loadset.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/loadset.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/loadset.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/loadset.cpp
-
-CMakeFiles/VDA5050_AGV.dir/loadset.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/loadset.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/loadset.cpp > CMakeFiles/VDA5050_AGV.dir/loadset.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/loadset.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/loadset.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/loadset.cpp -o CMakeFiles/VDA5050_AGV.dir/loadset.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/versioninfo.cpp
-CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/versioninfo.cpp
-
-CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/versioninfo.cpp > CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/versioninfo.cpp -o CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/network.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/network.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/network.cpp
-CMakeFiles/VDA5050_AGV.dir/network.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/VDA5050_AGV.dir/network.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/network.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/network.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/network.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/network.cpp
-
-CMakeFiles/VDA5050_AGV.dir/network.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/network.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/network.cpp > CMakeFiles/VDA5050_AGV.dir/network.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/network.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/network.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/network.cpp -o CMakeFiles/VDA5050_AGV.dir/network.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/batterycharging.cpp
-CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/batterycharging.cpp
-
-CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/batterycharging.cpp > CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/batterycharging.cpp -o CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotconfiguration.cpp
-CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotconfiguration.cpp
-
-CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotconfiguration.cpp > CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/mobilerobotconfiguration.cpp -o CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/loadspecification.cpp
-CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/loadspecification.cpp
-
-CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/loadspecification.cpp > CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/loadspecification.cpp -o CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/factsheet.cpp
-CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/factsheet.cpp
-
-CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/factsheet.cpp > CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/factsheet.cpp -o CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/action.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/action.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/action.cpp
-CMakeFiles/VDA5050_AGV.dir/action.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/VDA5050_AGV.dir/action.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/action.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/action.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/action.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/action.cpp
-
-CMakeFiles/VDA5050_AGV.dir/action.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/action.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/action.cpp > CMakeFiles/VDA5050_AGV.dir/action.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/action.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/action.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/action.cpp -o CMakeFiles/VDA5050_AGV.dir/action.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/node.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/node.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/node.cpp
-CMakeFiles/VDA5050_AGV.dir/node.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/VDA5050_AGV.dir/node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/node.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/node.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/node.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/node.cpp
-
-CMakeFiles/VDA5050_AGV.dir/node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/node.cpp > CMakeFiles/VDA5050_AGV.dir/node.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/node.cpp -o CMakeFiles/VDA5050_AGV.dir/node.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/edge.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/edge.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/edge.cpp
-CMakeFiles/VDA5050_AGV.dir/edge.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/VDA5050_AGV.dir/edge.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/edge.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/edge.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/edge.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/edge.cpp
-
-CMakeFiles/VDA5050_AGV.dir/edge.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/edge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/edge.cpp > CMakeFiles/VDA5050_AGV.dir/edge.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/edge.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/edge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/edge.cpp -o CMakeFiles/VDA5050_AGV.dir/edge.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/corridor.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/corridor.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/corridor.cpp
-CMakeFiles/VDA5050_AGV.dir/corridor.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/VDA5050_AGV.dir/corridor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/corridor.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/corridor.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/corridor.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/corridor.cpp
-
-CMakeFiles/VDA5050_AGV.dir/corridor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/corridor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/corridor.cpp > CMakeFiles/VDA5050_AGV.dir/corridor.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/corridor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/corridor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/corridor.cpp -o CMakeFiles/VDA5050_AGV.dir/corridor.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/order.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/order.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/order.cpp
-CMakeFiles/VDA5050_AGV.dir/order.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/VDA5050_AGV.dir/order.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/order.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/order.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/order.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/order.cpp
-
-CMakeFiles/VDA5050_AGV.dir/order.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/order.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/order.cpp > CMakeFiles/VDA5050_AGV.dir/order.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/order.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/order.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/order.cpp -o CMakeFiles/VDA5050_AGV.dir/order.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/instantaction.cpp
-CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/instantaction.cpp
-
-CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/instantaction.cpp > CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/instantaction.cpp -o CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/response.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/response.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/response.cpp
-CMakeFiles/VDA5050_AGV.dir/response.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/VDA5050_AGV.dir/response.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/response.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/response.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/response.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/response.cpp
-
-CMakeFiles/VDA5050_AGV.dir/response.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/response.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/response.cpp > CMakeFiles/VDA5050_AGV.dir/response.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/response.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/response.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/response.cpp -o CMakeFiles/VDA5050_AGV.dir/response.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/responsemessage.cpp
-CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/responsemessage.cpp
-
-CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/responsemessage.cpp > CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/responsemessage.cpp -o CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/connection.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/connection.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/connection.cpp
-CMakeFiles/VDA5050_AGV.dir/connection.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/VDA5050_AGV.dir/connection.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/connection.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/connection.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/connection.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/connection.cpp
-
-CMakeFiles/VDA5050_AGV.dir/connection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/connection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/connection.cpp > CMakeFiles/VDA5050_AGV.dir/connection.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/connection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/connection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/connection.cpp -o CMakeFiles/VDA5050_AGV.dir/connection.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/visualization.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/visualization.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/visualization.cpp
-CMakeFiles/VDA5050_AGV.dir/visualization.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/VDA5050_AGV.dir/visualization.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/visualization.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/visualization.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/visualization.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/visualization.cpp
-
-CMakeFiles/VDA5050_AGV.dir/visualization.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/visualization.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/visualization.cpp > CMakeFiles/VDA5050_AGV.dir/visualization.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/visualization.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/visualization.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/visualization.cpp -o CMakeFiles/VDA5050_AGV.dir/visualization.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/alloweddeviationxy.cpp
-CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/alloweddeviationxy.cpp
-
-CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/alloweddeviationxy.cpp > CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/alloweddeviationxy.cpp -o CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/zoneaction.cpp
-CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/zoneaction.cpp
-
-CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/zoneaction.cpp > CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/zoneaction.cpp -o CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/zone.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/zone.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/zone.cpp
-CMakeFiles/VDA5050_AGV.dir/zone.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/VDA5050_AGV.dir/zone.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/zone.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/zone.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/zone.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/zone.cpp
-
-CMakeFiles/VDA5050_AGV.dir/zone.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/zone.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/zone.cpp > CMakeFiles/VDA5050_AGV.dir/zone.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/zone.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/zone.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/zone.cpp -o CMakeFiles/VDA5050_AGV.dir/zone.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/controlpoint.cpp
-CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/controlpoint.cpp
-
-CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/controlpoint.cpp > CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/controlpoint.cpp -o CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/zonesetdefinition.cpp
-CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/zonesetdefinition.cpp
-
-CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/zonesetdefinition.cpp > CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/zonesetdefinition.cpp -o CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.s
-
-CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
-CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.o: /home/cevriye/QtProjects/VDA5050_AGV/mqttclient.cpp
-CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.o -c /home/cevriye/QtProjects/VDA5050_AGV/mqttclient.cpp
-
-CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cevriye/QtProjects/VDA5050_AGV/mqttclient.cpp > CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.i
-
-CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cevriye/QtProjects/VDA5050_AGV/mqttclient.cpp -o CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/build/VDA5050_AGV_autogen/mocs_compilation.cpp -o CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/main.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/main.cpp.o: /home/melih/Desktop/vda5050_new/src/main.cpp
+CMakeFiles/VDA5050_AGV.dir/src/main.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/main.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/main.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/main.cpp.o -c /home/melih/Desktop/vda5050_new/src/main.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/main.cpp > CMakeFiles/VDA5050_AGV.dir/src/main.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/main.cpp -o CMakeFiles/VDA5050_AGV.dir/src/main.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.o: /home/melih/Desktop/vda5050_new/src/agv/agv.cpp
+CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.o -c /home/melih/Desktop/vda5050_new/src/agv/agv.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/agv/agv.cpp > CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/agv/agv.cpp -o CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.o: /home/melih/Desktop/vda5050_new/src/mqtt/mqttclient.cpp
+CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.o -c /home/melih/Desktop/vda5050_new/src/mqtt/mqttclient.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/mqtt/mqttclient.cpp > CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/mqtt/mqttclient.cpp -o CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.o: /home/melih/Desktop/vda5050_new/src/common/action.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/action.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/action.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/action.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.o: /home/melih/Desktop/vda5050_new/src/common/actionparameter.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/actionparameter.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/actionparameter.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/actionparameter.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.o: /home/melih/Desktop/vda5050_new/src/common/actionstate.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/actionstate.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/actionstate.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/actionstate.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.o: /home/melih/Desktop/vda5050_new/src/common/translation.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/translation.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/translation.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/translation.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.o: /home/melih/Desktop/vda5050_new/src/common/position.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/position.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/position.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/position.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.o: /home/melih/Desktop/vda5050_new/src/common/velocity.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/velocity.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/velocity.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/velocity.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.o: /home/melih/Desktop/vda5050_new/src/common/map.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/map.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/map.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/map.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.o: /home/melih/Desktop/vda5050_new/src/common/controlpoint.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/controlpoint.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/controlpoint.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/controlpoint.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.o: /home/melih/Desktop/vda5050_new/src/common/trajectory.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/trajectory.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/trajectory.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/trajectory.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.o: /home/melih/Desktop/vda5050_new/src/common/corridor.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/corridor.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/corridor.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/corridor.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.o: /home/melih/Desktop/vda5050_new/src/common/waypoint.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/waypoint.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/waypoint.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/waypoint.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.o: /home/melih/Desktop/vda5050_new/src/common/nodeposition.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/nodeposition.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/nodeposition.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/nodeposition.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.o: /home/melih/Desktop/vda5050_new/src/common/alloweddeviationxy.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/alloweddeviationxy.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/alloweddeviationxy.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/alloweddeviationxy.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.o: /home/melih/Desktop/vda5050_new/src/common/boundingboxreference.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/boundingboxreference.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/boundingboxreference.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/boundingboxreference.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.o: /home/melih/Desktop/vda5050_new/src/common/loaddimensions.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/loaddimensions.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/loaddimensions.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/loaddimensions.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.o: /home/melih/Desktop/vda5050_new/src/common/vertex.cpp
+CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.o -c /home/melih/Desktop/vda5050_new/src/common/vertex.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/common/vertex.cpp > CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/common/vertex.cpp -o CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.o: /home/melih/Desktop/vda5050_new/src/state/state.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/state.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/state.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/state.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.o: /home/melih/Desktop/vda5050_new/src/state/mobilerobotposition.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/mobilerobotposition.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/mobilerobotposition.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/mobilerobotposition.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.o: /home/melih/Desktop/vda5050_new/src/state/safetystate.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/safetystate.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/safetystate.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/safetystate.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.o: /home/melih/Desktop/vda5050_new/src/state/powersupply.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/powersupply.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/powersupply.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/powersupply.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.o: /home/melih/Desktop/vda5050_new/src/state/error.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/error.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/error.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/error.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.o: /home/melih/Desktop/vda5050_new/src/state/errorreference.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/errorreference.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/errorreference.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/errorreference.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.o: /home/melih/Desktop/vda5050_new/src/state/info.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/info.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/info.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/info.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.o: /home/melih/Desktop/vda5050_new/src/state/inforeference.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/inforeference.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/inforeference.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/inforeference.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.o: /home/melih/Desktop/vda5050_new/src/state/nodestate.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/nodestate.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/nodestate.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/nodestate.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.o: /home/melih/Desktop/vda5050_new/src/state/edgestate.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/edgestate.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/edgestate.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/edgestate.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.o: /home/melih/Desktop/vda5050_new/src/state/plannedpath.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/plannedpath.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/plannedpath.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/plannedpath.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.o: /home/melih/Desktop/vda5050_new/src/state/intermediatepath.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/intermediatepath.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/intermediatepath.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/intermediatepath.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.o: /home/melih/Desktop/vda5050_new/src/state/load.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/load.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/load.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/load.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.o: /home/melih/Desktop/vda5050_new/src/state/zonerequest.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/zonerequest.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/zonerequest.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/zonerequest.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.o: /home/melih/Desktop/vda5050_new/src/state/edgerequest.cpp
+CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.o -c /home/melih/Desktop/vda5050_new/src/state/edgerequest.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/state/edgerequest.cpp > CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/state/edgerequest.cpp -o CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.o: /home/melih/Desktop/vda5050_new/src/order/order.cpp
+CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.o -c /home/melih/Desktop/vda5050_new/src/order/order.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/order/order.cpp > CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/order/order.cpp -o CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.o: /home/melih/Desktop/vda5050_new/src/order/node.cpp
+CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.o -c /home/melih/Desktop/vda5050_new/src/order/node.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/order/node.cpp > CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/order/node.cpp -o CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.o: /home/melih/Desktop/vda5050_new/src/order/edge.cpp
+CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.o -c /home/melih/Desktop/vda5050_new/src/order/edge.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/order/edge.cpp > CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/order/edge.cpp -o CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.o: /home/melih/Desktop/vda5050_new/src/instantaction/instantaction.cpp
+CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.o -c /home/melih/Desktop/vda5050_new/src/instantaction/instantaction.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/instantaction/instantaction.cpp > CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/instantaction/instantaction.cpp -o CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.o: /home/melih/Desktop/vda5050_new/src/response/response.cpp
+CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.o -c /home/melih/Desktop/vda5050_new/src/response/response.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/response/response.cpp > CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/response/response.cpp -o CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.o: /home/melih/Desktop/vda5050_new/src/response/responsemessage.cpp
+CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.o -c /home/melih/Desktop/vda5050_new/src/response/responsemessage.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/response/responsemessage.cpp > CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/response/responsemessage.cpp -o CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.o: /home/melih/Desktop/vda5050_new/src/connection/connection.cpp
+CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.o -c /home/melih/Desktop/vda5050_new/src/connection/connection.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/connection/connection.cpp > CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/connection/connection.cpp -o CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.o: /home/melih/Desktop/vda5050_new/src/visualization/visualization.cpp
+CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.o -c /home/melih/Desktop/vda5050_new/src/visualization/visualization.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/visualization/visualization.cpp > CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/visualization/visualization.cpp -o CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/factsheet.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/factsheet.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/factsheet.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/factsheet.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/typespecification.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/typespecification.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/typespecification.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/typespecification.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/physicalparameters.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/physicalparameters.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/physicalparameters.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/physicalparameters.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/maximumstringlengths.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/maximumstringlengths.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/maximumstringlengths.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/maximumstringlengths.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/maximumarraylengths.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/maximumarraylengths.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/maximumarraylengths.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/maximumarraylengths.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/timing.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/timing.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/timing.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/timing.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/protocollimits.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/protocollimits.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/protocollimits.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/protocollimits.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/optionalparameter.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/optionalparameter.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/optionalparameter.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/optionalparameter.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/mobilerobotaction.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/mobilerobotaction.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/mobilerobotaction.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/mobilerobotaction.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/protocolfeatures.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/protocolfeatures.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/protocolfeatures.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/protocolfeatures.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/wheeldefinition.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/wheeldefinition.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/wheeldefinition.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/wheeldefinition.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/envelope2d.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/envelope2d.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/envelope2d.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/envelope2d.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/envelope3d.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/envelope3d.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/envelope3d.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/envelope3d.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/mobilerobotgeometry.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/mobilerobotgeometry.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/mobilerobotgeometry.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/mobilerobotgeometry.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/loadset.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/loadset.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/loadset.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/loadset.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/versioninfo.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/versioninfo.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/versioninfo.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/versioninfo.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/network.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/network.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/network.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/network.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/batterycharging.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/batterycharging.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/batterycharging.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/batterycharging.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/mobilerobotconfiguration.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/mobilerobotconfiguration.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/mobilerobotconfiguration.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/mobilerobotconfiguration.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.o: /home/melih/Desktop/vda5050_new/src/factsheet/loadspecification.cpp
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.o -c /home/melih/Desktop/vda5050_new/src/factsheet/loadspecification.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/factsheet/loadspecification.cpp > CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/factsheet/loadspecification.cpp -o CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.o: /home/melih/Desktop/vda5050_new/src/zone/zone.cpp
+CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.o -c /home/melih/Desktop/vda5050_new/src/zone/zone.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/zone/zone.cpp > CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/zone/zone.cpp -o CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.o: /home/melih/Desktop/vda5050_new/src/zone/zoneaction.cpp
+CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.o -c /home/melih/Desktop/vda5050_new/src/zone/zoneaction.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/zone/zoneaction.cpp > CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/zone/zoneaction.cpp -o CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.o: /home/melih/Desktop/vda5050_new/src/zone/zoneset.cpp
+CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.o -c /home/melih/Desktop/vda5050_new/src/zone/zoneset.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/zone/zoneset.cpp > CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/zone/zoneset.cpp -o CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.s
+
+CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.o: CMakeFiles/VDA5050_AGV.dir/flags.make
+CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.o: /home/melih/Desktop/vda5050_new/src/zone/zonesetdefinition.cpp
+CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.o: CMakeFiles/VDA5050_AGV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.o -MF CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.o.d -o CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.o -c /home/melih/Desktop/vda5050_new/src/zone/zonesetdefinition.cpp
+
+CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melih/Desktop/vda5050_new/src/zone/zonesetdefinition.cpp > CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.i
+
+CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melih/Desktop/vda5050_new/src/zone/zonesetdefinition.cpp -o CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.s
 
 # Object files for target VDA5050_AGV
 VDA5050_AGV_OBJECTS = \
 "CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/main.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/agv.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/state.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/velocity.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/error.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/translation.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/info.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/map.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/load.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/timing.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/position.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/vertex.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/loadset.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/network.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/action.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/node.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/edge.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/corridor.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/order.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/response.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/connection.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/visualization.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/zone.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.o" \
-"CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.o"
+"CMakeFiles/VDA5050_AGV.dir/src/main.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.o" \
+"CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.o"
 
 # External object files for target VDA5050_AGV
 VDA5050_AGV_EXTERNAL_OBJECTS =
 
 VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/VDA5050_AGV_autogen/mocs_compilation.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/main.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/agv.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/state.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/velocity.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/mobilerobotposition.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/safetystate.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/powersupply.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/error.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/errorreference.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/translation.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/info.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/inforeference.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/map.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/zoneset.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/nodestate.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/nodeposition.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/edgestate.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/plannedpath.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/trajectory.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/intermediatepath.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/waypoint.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/actionstate.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/load.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/boundingboxreference.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/loaddimensions.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/zonerequest.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/edgerequest.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/typespecification.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/physicalparameters.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/maximumstringlengths.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/maximumarraylengths.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/timing.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/protocollimits.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/optionalparameter.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/actionparameter.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/mobilerobotaction.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/protocolfeatures.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/position.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/wheeldefinition.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/vertex.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/envelope2d.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/envelope3d.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/mobilerobotgeometry.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/loadset.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/versioninfo.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/network.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/batterycharging.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/mobilerobotconfiguration.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/loadspecification.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/factsheet.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/action.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/node.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/edge.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/corridor.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/order.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/instantaction.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/response.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/responsemessage.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/connection.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/visualization.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/alloweddeviationxy.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/zoneaction.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/zone.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/controlpoint.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/zonesetdefinition.cpp.o
-VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/mqttclient.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/main.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/agv/agv.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/mqtt/mqttclient.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/action.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/actionparameter.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/actionstate.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/translation.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/position.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/velocity.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/map.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/controlpoint.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/trajectory.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/corridor.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/waypoint.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/nodeposition.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/alloweddeviationxy.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/boundingboxreference.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/loaddimensions.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/common/vertex.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/state.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/mobilerobotposition.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/safetystate.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/powersupply.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/error.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/errorreference.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/info.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/inforeference.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/nodestate.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/edgestate.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/plannedpath.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/intermediatepath.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/load.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/zonerequest.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/state/edgerequest.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/order/order.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/order/node.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/order/edge.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/instantaction/instantaction.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/response/response.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/response/responsemessage.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/connection/connection.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/visualization/visualization.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/factsheet.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/typespecification.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/physicalparameters.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumstringlengths.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/maximumarraylengths.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/timing.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocollimits.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/optionalparameter.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotaction.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/protocolfeatures.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/wheeldefinition.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope2d.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/envelope3d.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotgeometry.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadset.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/versioninfo.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/network.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/batterycharging.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/mobilerobotconfiguration.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/factsheet/loadspecification.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/zone/zone.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/zone/zoneaction.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/zone/zoneset.cpp.o
+VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/src/zone/zonesetdefinition.cpp.o
 VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/build.make
-VDA5050_AGV: lib/libQt6Mqtt.so.6.5.3
-VDA5050_AGV: /home/cevriye/Qt/6.5.3/gcc_64/lib/libQt6Network.so.6.5.3
-VDA5050_AGV: /home/cevriye/Qt/6.5.3/gcc_64/lib/libQt6Core.so.6.5.3
+VDA5050_AGV: /home/melih/Qt/6.12.0/gcc_64/lib/libQt6Mqtt.so.6.12.0
+VDA5050_AGV: /home/melih/Qt/6.12.0/gcc_64/lib/libQt6WebSockets.so.6.12.0
+VDA5050_AGV: /home/melih/Qt/6.12.0/gcc_64/lib/libQt6Network.so.6.12.0
+VDA5050_AGV: /home/melih/Qt/6.12.0/gcc_64/lib/libQt6Core.so.6.12.0
 VDA5050_AGV: CMakeFiles/VDA5050_AGV.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Linking CXX executable VDA5050_AGV"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Linking CXX executable VDA5050_AGV"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VDA5050_AGV.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1164,6 +1165,6 @@ CMakeFiles/VDA5050_AGV.dir/clean:
 .PHONY : CMakeFiles/VDA5050_AGV.dir/clean
 
 CMakeFiles/VDA5050_AGV.dir/depend:
-	cd /home/cevriye/QtProjects/VDA5050_AGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cevriye/QtProjects/VDA5050_AGV /home/cevriye/QtProjects/VDA5050_AGV /home/cevriye/QtProjects/VDA5050_AGV/build /home/cevriye/QtProjects/VDA5050_AGV/build /home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles/VDA5050_AGV.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/melih/Desktop/vda5050_new/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/melih/Desktop/vda5050_new /home/melih/Desktop/vda5050_new /home/melih/Desktop/vda5050_new/build /home/melih/Desktop/vda5050_new/build /home/melih/Desktop/vda5050_new/build/CMakeFiles/VDA5050_AGV.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/VDA5050_AGV.dir/depend
 

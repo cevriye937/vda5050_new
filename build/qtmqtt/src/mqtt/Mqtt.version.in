@@ -1,4 +1,0 @@
-Qt_6_PRIVATE_API {
-    qt_private_api_tag*;
-@PRIVATE_CONTENT@};
-Qt_6 { *; };

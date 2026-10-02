@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cevriye/QtProjects/VDA5050_AGV
+CMAKE_SOURCE_DIR = /home/melih/Desktop/vda5050_new
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cevriye/QtProjects/VDA5050_AGV/build
+CMAKE_BINARY_DIR = /home/melih/Desktop/vda5050_new/build
 
 # Utility rule file for VDA5050_AGV_autogen.
 
@@ -68,12 +68,11 @@ include CMakeFiles/VDA5050_AGV_autogen.dir/progress.make
 
 CMakeFiles/VDA5050_AGV_autogen: VDA5050_AGV_autogen/timestamp
 
-VDA5050_AGV_autogen/timestamp: /home/cevriye/Qt/6.5.3/gcc_64/./libexec/moc
-VDA5050_AGV_autogen/timestamp: /home/cevriye/Qt/6.5.3/gcc_64/./libexec/uic
+VDA5050_AGV_autogen/timestamp: /home/melih/Qt/6.12.0/gcc_64/libexec/moc
 VDA5050_AGV_autogen/timestamp: CMakeFiles/VDA5050_AGV_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target VDA5050_AGV"
-	/usr/bin/cmake -E cmake_autogen /home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles/VDA5050_AGV_autogen.dir/AutogenInfo.json RelWithDebInfo
-	/usr/bin/cmake -E touch /home/cevriye/QtProjects/VDA5050_AGV/build/VDA5050_AGV_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/melih/Desktop/vda5050_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target VDA5050_AGV"
+	/usr/bin/cmake -E cmake_autogen /home/melih/Desktop/vda5050_new/build/CMakeFiles/VDA5050_AGV_autogen.dir/AutogenInfo.json Release
+	/usr/bin/cmake -E touch /home/melih/Desktop/vda5050_new/build/VDA5050_AGV_autogen/timestamp
 
 VDA5050_AGV_autogen: CMakeFiles/VDA5050_AGV_autogen
 VDA5050_AGV_autogen: VDA5050_AGV_autogen/timestamp
@@ -89,6 +88,6 @@ CMakeFiles/VDA5050_AGV_autogen.dir/clean:
 .PHONY : CMakeFiles/VDA5050_AGV_autogen.dir/clean
 
 CMakeFiles/VDA5050_AGV_autogen.dir/depend:
-	cd /home/cevriye/QtProjects/VDA5050_AGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cevriye/QtProjects/VDA5050_AGV /home/cevriye/QtProjects/VDA5050_AGV /home/cevriye/QtProjects/VDA5050_AGV/build /home/cevriye/QtProjects/VDA5050_AGV/build /home/cevriye/QtProjects/VDA5050_AGV/build/CMakeFiles/VDA5050_AGV_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/melih/Desktop/vda5050_new/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/melih/Desktop/vda5050_new /home/melih/Desktop/vda5050_new /home/melih/Desktop/vda5050_new/build /home/melih/Desktop/vda5050_new/build /home/melih/Desktop/vda5050_new/build/CMakeFiles/VDA5050_AGV_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/VDA5050_AGV_autogen.dir/depend
 
