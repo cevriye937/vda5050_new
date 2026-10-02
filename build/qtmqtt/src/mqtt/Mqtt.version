@@ -1,0 +1,14 @@
+Qt_6_PRIVATE_API {
+    qt_private_api_tag*;
+    *18QMqttClientPrivate*;                             # qmqttclient_p.h:27
+    *15QMqttConnection*;                                # qmqttconnection_p.h:33
+    *27QMqttLastWillPropertiesData*;                    # qmqttconnectionproperties_p.h:23
+    *29QMqttConnectionPropertiesData*;                  # qmqttconnectionproperties_p.h:35
+    *35QMqttServerConnectionPropertiesData*;            # qmqttconnectionproperties_p.h:49
+    *18QMqttControlPacket*;                             # qmqttcontrolpacket_p.h:25
+    *19QMqttMessagePrivate*;                            # qmqttmessage_p.h:27
+    *26QMqttPublishPropertiesData*;                     # qmqttpublishproperties_p.h:26
+    *32QMqttMessageStatusPropertiesData*;               # qmqttpublishproperties_p.h:40
+    *24QMqttSubscriptionPrivate*;                       # qmqttsubscription_p.h:23
+};
+Qt_6 { *; };

@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QMqttConnection",
+            "object": true,
+            "qualifiedClassName": "QMqttConnection",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qmqttconnection_p.h",
+    "outputRevision": 68
+}

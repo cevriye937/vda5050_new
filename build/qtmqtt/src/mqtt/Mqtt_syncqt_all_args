@@ -1,0 +1,17 @@
+-module
+QtMqtt
+-sourceDir
+/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt
+-binaryDir
+/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt
+-privateHeadersFilter
+.+_p(ch)?\.h
+-includeDir
+/home/cevriye/QtProjects/VDA5050_AGV/build/include/QtMqtt
+-privateIncludeDir
+/home/cevriye/QtProjects/VDA5050_AGV/build/include/QtMqtt/6.5.3/QtMqtt/private
+-qpaIncludeDir
+/home/cevriye/QtProjects/VDA5050_AGV/build/include/QtMqtt/6.5.3/QtMqtt/qpa
+-generatedHeaders
+/home/cevriye/QtProjects/VDA5050_AGV/build/include/QtMqtt/qtmqttexports.h
+-all

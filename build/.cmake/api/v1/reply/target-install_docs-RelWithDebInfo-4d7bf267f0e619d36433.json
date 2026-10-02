@@ -1,0 +1,68 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_build_repo_begin",
+			"qt_build_repo",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"/home/cevriye/Qt/6.5.3/gcc_64/lib/cmake/Qt6BuildInternals/Qt6BuildInternalsConfig.cmake",
+			"qtmqtt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 577,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 422,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 425,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "install_html_docs::@51debeb45840c407710f"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "install_qch_docs::@51debeb45840c407710f"
+		}
+	],
+	"id" : "install_docs::@51debeb45840c407710f",
+	"name" : "install_docs",
+	"paths" : 
+	{
+		"build" : "qtmqtt",
+		"source" : "qtmqtt"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

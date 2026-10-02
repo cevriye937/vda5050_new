@@ -1,0 +1,303 @@
+{
+	"BUILD_DIR" : "/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt/Mqtt_autogen",
+	"CMAKE_BINARY_DIR" : "/home/cevriye/QtProjects/VDA5050_AGV/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/CMakeLists.txt",
+		"/home/cevriye/Qt/6.5.3/gcc_64/lib/cmake/Qt6/modulecppexports.h.in",
+		"/home/cevriye/Qt/6.5.3/gcc_64/lib/cmake/Qt6/QtModuleConfig.cmake.in",
+		"/usr/share/cmake-3.28/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"/home/cevriye/Qt/6.5.3/gcc_64/lib/cmake/Qt6/QtCMakePackageVersionFile.cmake.in",
+		"/home/cevriye/Qt/6.5.3/gcc_64/lib/cmake/Qt6/ModuleDescription.json.in",
+		"/home/cevriye/Qt/6.5.3/gcc_64/lib/cmake/Qt6/QtFileConfigure.txt.in",
+		"/home/cevriye/Qt/6.5.3/gcc_64/lib/cmake/Qt6/QtFileConfigure.txt.in",
+		"/home/cevriye/Qt/6.5.3/gcc_64/lib/cmake/Qt6/QtFileConfigure.txt.in",
+		"/home/cevriye/Qt/6.5.3/gcc_64/lib/cmake/Qt6/PkgConfigLibrary.pc.in",
+		"/home/cevriye/QtProjects/VDA5050_AGV/build/lib/pkgconfig/preliminary_pc_for_Qt6Mqtt_step1.pc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/cevriye/QtProjects/VDA5050_AGV",
+	"DEP_FILE" : "/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt/Mqtt_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "Mqtt_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/build/include/QtMqtt/qtmqttexports.h",
+			"MU",
+			"XAMP47WMCB/moc_qtmqttexports.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttauthenticationproperties.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttauthenticationproperties.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttclient.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttclient.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttclient_p.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttclient_p.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttconnection_p.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttconnection_p.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttconnectionproperties.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttconnectionproperties.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttconnectionproperties_p.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttconnectionproperties_p.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttcontrolpacket_p.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttcontrolpacket_p.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttglobal.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttglobal.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttmessage.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttmessage.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttmessage_p.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttmessage_p.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttpublishproperties.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttpublishproperties.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttpublishproperties_p.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttpublishproperties_p.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttsubscription.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttsubscription.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttsubscription_p.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttsubscription_p.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttsubscriptionproperties.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqttsubscriptionproperties.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqtttopicfilter.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqtttopicfilter.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqtttopicname.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqtttopicname.cpp",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqtttype.h",
+			"MU",
+			"EWIEGA46WW/moc_qmqtttype.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt/Mqtt_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt/Mqtt_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"Mqtt_EXPORTS",
+		"QT_ASCII_CAST_WARNINGS",
+		"QT_BUILDING_QT",
+		"QT_BUILD_MQTT_LIB",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_DISABLE_DEPRECATED_UP_TO=0x050000",
+		"QT_EXPLICIT_QFILE_CONSTRUCTION_FROM_PATH",
+		"QT_MOC_COMPAT",
+		"QT_NETWORK_LIB",
+		"QT_NO_AS_CONST=1",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_EXCEPTIONS",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WARN_DEPRECATED_UP_TO=0x070000",
+		"_LARGEFILE64_SOURCE",
+		"_LARGEFILE_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/cevriye/QtProjects/VDA5050_AGV/build/include",
+		"/home/cevriye/QtProjects/VDA5050_AGV/build/include/QtMqtt",
+		"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt",
+		"/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt",
+		"/home/cevriye/QtProjects/VDA5050_AGV/build/include/QtMqtt/6.5.3",
+		"/home/cevriye/QtProjects/VDA5050_AGV/build/include/QtMqtt/6.5.3/QtMqtt",
+		"/home/cevriye/Qt/6.5.3/gcc_64/include/QtCore",
+		"/home/cevriye/Qt/6.5.3/gcc_64/include",
+		"/home/cevriye/Qt/6.5.3/gcc_64/mkspecs/linux-g++",
+		"/home/cevriye/Qt/6.5.3/gcc_64/include/QtNetwork",
+		"/home/cevriye/Qt/6.5.3/gcc_64/include/QtCore/6.5.3",
+		"/home/cevriye/Qt/6.5.3/gcc_64/include/QtCore/6.5.3/QtCore",
+		"/usr/include/c++/13",
+		"/usr/include/x86_64-linux-gnu/c++/13",
+		"/usr/include/c++/13/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/13/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_GADGET_EXPORT",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=c++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt/Mqtt_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt/qtmqtt-config.h",
+		"/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt/qtmqtt-config_p.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt/CMakeFiles/Mqtt_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/cevriye/Qt/6.5.3/gcc_64/./libexec/moc",
+	"QT_UIC_EXECUTABLE" : "/home/cevriye/Qt/6.5.3/gcc_64/./libexec/uic",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 5,
+	"SETTINGS_FILE" : "/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt/CMakeFiles/Mqtt_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttauthenticationproperties.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttclient.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttconnection.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttconnectionproperties.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttcontrolpacket.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttmessage.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttpublishproperties.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttsubscription.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqttsubscriptionproperties.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqtttopicfilter.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqtttopicname.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/cevriye/QtProjects/VDA5050_AGV/qtmqtt/src/mqtt/qmqtttype.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt/qtmqtt-config.h",
+		"/home/cevriye/QtProjects/VDA5050_AGV/build/qtmqtt/src/mqtt/qtmqtt-config_p.h"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

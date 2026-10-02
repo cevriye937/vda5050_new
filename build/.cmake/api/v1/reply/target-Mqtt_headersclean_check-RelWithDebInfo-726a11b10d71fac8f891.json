@@ -1,0 +1,171 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt_internal_add_headersclean_target",
+			"qt_finalize_module"
+		],
+		"files" : 
+		[
+			"/home/cevriye/Qt/6.5.3/gcc_64/lib/cmake/Qt6/QtHeadersClean.cmake",
+			"/home/cevriye/Qt/6.5.3/gcc_64/lib/cmake/Qt6/QtModuleHelpers.cmake",
+			"/home/cevriye/Qt/6.5.3/gcc_64/lib/cmake/Qt6/QtScopeFinalizerHelpers.cmake:24:EVAL",
+			"qtmqtt/src/mqtt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"file" : 3,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 873,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 277,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Mqtt_sync_headers::@4da9d186bc3730be13cf"
+		}
+	],
+	"id" : "Mqtt_headersclean_check::@4da9d186bc3730be13cf",
+	"name" : "Mqtt_headersclean_check",
+	"paths" : 
+	{
+		"build" : "qtmqtt/src/mqtt",
+		"source" : "qtmqtt/src/mqtt"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/qtmqtt/src/mqtt/CMakeFiles/Mqtt_headersclean_check",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/qtmqtt/src/mqtt/CMakeFiles/Mqtt_headersclean_check.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/qtmqtt/src/mqtt/header_check/qmqttauthenticationproperties.h.o.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/qtmqtt/src/mqtt/header_check/qmqttclient.h.o.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/qtmqtt/src/mqtt/header_check/qmqttconnectionproperties.h.o.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/qtmqtt/src/mqtt/header_check/qmqttmessage.h.o.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/qtmqtt/src/mqtt/header_check/qmqttpublishproperties.h.o.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/qtmqtt/src/mqtt/header_check/qmqttsubscription.h.o.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/qtmqtt/src/mqtt/header_check/qmqttsubscriptionproperties.h.o.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/qtmqtt/src/mqtt/header_check/qmqtttopicfilter.h.o.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/qtmqtt/src/mqtt/header_check/qmqtttopicname.h.o.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/qtmqtt/src/mqtt/header_check/qmqtttype.h.o.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/qtmqtt/src/mqtt/Mqtt_syncqt_timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
